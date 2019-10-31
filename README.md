@@ -50,7 +50,7 @@ grunt test
 
 パッチファイルをTicketにアップロード + コメントを書く。
 
-###参考
+### 参考
 #### 始め方
 https://make.wordpress.org/core/handbook/tutorials/getting-started/
 #### テスト
@@ -62,7 +62,7 @@ https://make.wordpress.org/core/handbook/tutorials/trac/submitting-a-patch/
 
 
 ## WP-CLI
-###参考
+### 参考
 #### コントリビュートの仕方
 https://make.wordpress.org/cli/handbook/contributing/
 #### プルリクエスト
