@@ -2,13 +2,13 @@
 
 ## Core
 ### ローカル開発環境を用意
-- VVV
-	- https://varyingvagrantvagrants.org/
-	- Requirements
-		- Vagrant
-			- https://www.vagrantup.com/
-		- VirtualBox
-			- https://www.virtualbox.org/
+#### VVV
+公式開発環境。
+
+https://varyingvagrantvagrants.org/
+
+##### インストールの仕方
+配布したフォルダ内の `instructions.html`を参照。
 
 ### Ticketを探す
 
