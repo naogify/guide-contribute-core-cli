@@ -1,13 +1,13 @@
-# How to Contribute Core and CLI
+# [WordPress] CoreとCLIのコントリビュートの仕方
 
 ## Core
 ### ローカル開発環境を用意
-#### VVV
-公式開発環境。
+
+VVV （varyingvagrantvagrants）
 
 https://varyingvagrantvagrants.org/
 
-##### インストールの仕方
+#### インストールの仕方
 配布したフォルダ内の `instructions.html`を参照。
 
 ### Ticketを探す
