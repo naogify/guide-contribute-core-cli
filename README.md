@@ -3,24 +3,25 @@
 ## Core
 ### ローカル開発環境を用意
 - VVV
-	- [https://varyingvagrantvagrants.org/]
+	- https://varyingvagrantvagrants.org/
 	- Requirements
 		- Vagrant
-			- [https://www.vagrantup.com/]
+			- https://www.vagrantup.com/
 		- VirtualBox
-			- [https://www.virtualbox.org/]
+			- https://www.virtualbox.org/
 
 ### Ticketを探す
-[https://make.wordpress.org/core/reports/]
-[https://core.trac.wordpress.org/tickets/good-first-bugs]
+https://make.wordpress.org/core/reports/
+https://core.trac.wordpress.org/tickets/good-first-bugs
 
 ### パッチを送る
 #### 修正
-cd ./WCTOKYO2019/vvv/www/wordpress-develop/public_html/
+`cd ./WCTOKYO2019/vvv/www/wordpress-develop/public_html/`
 
 `/public_html/src/`ディレクトリ内でバグを修正。
 
 #### テスト
+```
 vagrant ssh
 cd /srv/www/wordpress-develop/public_html/
 
@@ -33,33 +34,34 @@ cp wp-tests-config-sample.php wp-tests-config.php
 vi wp-tests-config.php
 
 grunt test
+```
 
 #### パッチを作成
 変更をadd
-svn add /src/modified-file.php
+`svn add /src/modified-file.php`
 
 パッチを作成
-svn diff /src/modified-file.php > 00000.diff
+`svn diff /src/modified-file.php > 00000.diff`
 
 パッチファイルをTicketにアップロード + コメントを書く。
 
 ###参考
 #### 始め方
-[https://make.wordpress.org/core/handbook/tutorials/getting-started/]
+https://make.wordpress.org/core/handbook/tutorials/getting-started/
 #### テスト
-[https://make.wordpress.org/core/handbook/testing/patch/]
+https://make.wordpress.org/core/handbook/testing/patch/
 #### パッチを作成
-[https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-withthe-command-line]
+https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-withthe-command-line
 #### パッチをアップロード
-[https://make.wordpress.org/core/handbook/tutorials/trac/submitting-a-patch/]
+https://make.wordpress.org/core/handbook/tutorials/trac/submitting-a-patch/
 
 
 ## WP-CLI
 ###参考
 #### コントリビュートの仕方
-[https://make.wordpress.org/cli/handbook/contributing/]
+https://make.wordpress.org/cli/handbook/contributing/
 #### プルリクエスト
-[https://make.wordpress.org/cli/handbook/pull-requests/]
+https://make.wordpress.org/cli/handbook/pull-requests/
 #### Good First Issue
-[https://github.com/wp-cli/wp-cli/labels/good-first-issue]
+https://github.com/wp-cli/wp-cli/labels/good-first-issue
 
