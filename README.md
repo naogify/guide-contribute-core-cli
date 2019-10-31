@@ -11,14 +11,16 @@
 			- https://www.virtualbox.org/
 
 ### Ticketを探す
+
 https://make.wordpress.org/core/reports/
+
 https://core.trac.wordpress.org/tickets/good-first-bugs
 
 ### パッチを送る
 #### 修正
-`cd ./WCTOKYO2019/vvv/www/wordpress-develop/public_html/`
+`cd ./WCTOKYO2019/vvv/www/wordpress-develop/public_html/src/`
 
-`/public_html/src/`ディレクトリ内でバグを修正。
+バグを修正。
 
 #### テスト
 ```
@@ -37,10 +39,13 @@ grunt test
 ```
 
 #### パッチを作成
+
 変更をadd
+
 `svn add /src/modified-file.php`
 
 パッチを作成
+
 `svn diff /src/modified-file.php > 00000.diff`
 
 パッチファイルをTicketにアップロード + コメントを書く。
