@@ -38,6 +38,14 @@ vi wp-tests-config.php
 grunt test
 ```
 
+#### コーディング規約チェック
+
+```
+phpcs ./target-file
+phpcs ./target-directory/*
+
+```
+
 #### パッチを作成
 
 変更をadd
