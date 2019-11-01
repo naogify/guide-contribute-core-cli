@@ -43,7 +43,6 @@ grunt test
 ```
 phpcs ./target-file
 phpcs ./target-directory/*
-
 ```
 
 #### パッチを作成
