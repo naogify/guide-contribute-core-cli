@@ -41,7 +41,7 @@ grunt test
 #### コーディング規約チェック
 
 ```
-phpcs ./target-file
+phpcs ./target-file.php
 phpcs ./target-directory/*
 ```
 
